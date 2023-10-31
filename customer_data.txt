@@ -1,11 +1,11 @@
-Customer Name,Phone Number,Account Type,Initial Balance,Interest Rate
-Ahmed Malik,+923451234567,Checking,12743.43,0.0
-Aisha Khan,+923401234567,Savings,3250.12,0.065
-Imran Iqbal,+923441234567,Checking,5689.76,0.0
-Farah Amin,+923461234567,Checking,2316.92,0.0
-Asad Nawaz,+923471234567,Checking,10967.32,0.0
-Sara Akhtar,+923481234567,Checking,8832.11,0.0
-Usman Siddiqui,+923491234567,Savings,19245.25,0.028
-Mehak Raza,+923411234567,Checking,3847.59,0.0
-Ahmed Bashir,+923421234567,Savings,10349.67,0.035
-Hira Iqbal,+923431234567,Checking,7546.88,0.0
+"Customer Name","Phone Number","Account Type","Initial Balance","Interest Rate"
+"Ahmed Malik","+923451234567","Checking",12743.43,0.0
+"Aisha Khan","+923401234567","Savings",3250.12,0.065
+"Imran Iqbal","+923441234567","Checking",5689.76,0.0
+"Farah Amin","+923461234567","Checking",2316.92,0.0
+"Asad Nawaz","+923471234567","Checking",10967.32,0.0
+"Sara Akhtar","+923481234567","Checking",8832.11,0.0
+"Usman Siddiqui","+923491234567","Savings",19245.25,0.028
+"Mehak Raza","+923411234567","Checking",3847.59,0.0
+"Ahmed Bashir","+923421234567","Savings",10349.67,0.035
+"Hira Iqbal","+923431234567","Checking",7546.88,0.0
