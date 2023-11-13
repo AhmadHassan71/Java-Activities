@@ -1,6 +1,6 @@
 # Account Management System
 
-The Account Management System is a Java-based application for managing personal bank accounts. It allows users to create and manage bank accounts for customers, perform various banking operations, and store data in different storage systems such as MySQL, Oracle, or the file system.
+The Account Management System is a Java-based full stack application for managing personal bank accounts. It allows users to create and manage bank accounts for customers, perform various banking operations, and store data in different storage systems such as MySQL, Oracle, or the file system.
 
 ## Features
 
