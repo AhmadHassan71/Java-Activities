@@ -12,8 +12,8 @@ public class MySQLdb implements Database {
 
     public void connect() {
         try {
-        	String username = "Ahmad", password="123";
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank", username, password);
+        	String username = "root", password="1234";
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Activity2", username, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -46,13 +46,15 @@ public class MySQLdb implements Database {
     }
 
     public ResultSet executeSelectQuery(String query) {
-        try (Statement statement = connection.createStatement()) {
+        try {
+            Statement statement = connection.createStatement();
             return statement.executeQuery(query);
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }
     }
+
     
     public List<String> loadall(){
     	return null;

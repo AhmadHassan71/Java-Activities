@@ -1,5 +1,6 @@
 package Bank;
 
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
@@ -21,7 +22,29 @@ public class AccountManagementSystem {
 
 
 	public int getNextCustomerId() {
-		return nextCustomerId++; 
+	    int nextCustomerId = 0;
+
+	    try {
+	        // Query to get the maximum customer ID from the Customer table
+	        String query = "SELECT MAX(customerId) FROM Customer";
+	        Database database = new MySQLdb();
+            database.connect();
+	        // Execute the query
+	        ResultSet resultSet = database.executeSelectQuery(query);
+
+	        // Retrieve the next customer ID
+	        if (resultSet.next()) {
+	            nextCustomerId = resultSet.getInt(1) + 1;
+	        }
+
+	        // Close the ResultSet
+	        resultSet.close();
+
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	    }
+
+	    return nextCustomerId;
 	}
 
 
